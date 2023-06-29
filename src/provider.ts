@@ -55,8 +55,7 @@ const multicallAddresses = {
 
 export function setMulticallAddress(chainId: number, address: string) {
   multicallAddresses[chainId] = address;
-  const DEBUG = process.env.DEBUG?.toLocaleLowerCase() === "true"
-  DEBUG && console.log(`Setting multicall address for chainId ${chainId} to ${address}`);
+  console.log(`Setting multicall address for chainId ${chainId} to ${address}`);
 }
 
 function getAddressForChainId(chainId: number) {
