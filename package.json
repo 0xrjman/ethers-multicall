@@ -1,6 +1,6 @@
 {
   "name": "@paraspace-org/ethers-multicall",
-  "version": "0.2.6",
+  "version": "0.2.7",
   "description": "Make multiple Ethereum network requests in a single HTTP query. ethcall for ethers v5.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -8,7 +8,7 @@
     "test": "mocha -r @ts-tools/node \"test/**/*.test.ts\"",
     "build": "tsc",
     "lint": "tslint -c tslint.json '{src,test}/**/*.ts' --fix",
-    "prepublishOnly": "yarn build && yarn lint"
+    "prepublishOnly": "pnpm build && pnpm lint"
   },
   "keywords": [
     "ethers",

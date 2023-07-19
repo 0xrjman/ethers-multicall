@@ -51,6 +51,10 @@ const multicallAddresses = {
   421613: '0x987E1A0745DF80780D41D42065F815F5f96a2Af1',
   43114: '0x7f3aC7C283d7E6662D886F494f7bc6F1993cDacf',
   80001: '0x08411ADd0b5AA8ee47563b146743C13b3556c9Cc',
+  // Moonbase Alpha
+  1287: '0x8f5b93B93245bEE9d19e2E69BB678fbF02Ae3436',
+  // Moonbeam
+  1284: '',
 };
 
 export function setMulticallAddress(chainId: number, address: string) {

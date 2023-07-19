@@ -1,4 +1,4 @@
-import {InfuraProvider} from '@ethersproject/providers';
+import { InfuraProvider } from '@ethersproject/providers';
 import { assert } from 'chai';
 import { Contract, Provider } from '../src';
 
@@ -25,19 +25,19 @@ it('human readable abi', async () => {
 it('json abi', async () => {
   const abi = [
     {
-        constant: true,
-        inputs: [],
-        name: 'totalSupply',
-        outputs: [
-            {
-                internalType: 'uint256',
-                name: '',
-                type: 'uint256'
-            }
-        ],
-        payable: false,
-        stateMutability: 'view',
-        type: 'function'
+      constant: true,
+      inputs: [],
+      name: 'totalSupply',
+      outputs: [
+        {
+          internalType: 'uint256',
+          name: '',
+          type: 'uint256'
+        }
+      ],
+      payable: false,
+      stateMutability: 'view',
+      type: 'function'
     }
   ];
   const addresses = [
