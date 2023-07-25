@@ -54,7 +54,7 @@ const multicallAddresses = {
   // Moonbase Alpha
   1287: '0x8f5b93B93245bEE9d19e2E69BB678fbF02Ae3436',
   // Moonbeam
-  1284: '',
+  1284: '0x83e3b61886770de2F64AAcaD2724ED4f08F7f36B',
 };
 
 export function setMulticallAddress(chainId: number, address: string) {
